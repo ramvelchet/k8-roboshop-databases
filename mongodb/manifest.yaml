@@ -52,7 +52,7 @@ spec:
       - name: nginx
         image: nginx
         ports:
-        - containerPort: 80
+        - containerPort: 70
           name: web
         volumeMounts:
         - name: mongodb
