@@ -98,7 +98,7 @@ spec:
     kind: Deployment
     name: payment
   minReplicas: 1
-  maxReplicas: 15
+  maxReplicas: 10
   metrics:
   - type: Resource
     resource:
